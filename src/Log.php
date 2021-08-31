@@ -78,8 +78,6 @@ class Log extends Manager implements LoggerInterface
      */
     public function write($msg, string $type = 'info', array $context = [])
     {
-
-
        return $this->store()->write($msg, $type, $context);
     }
 
@@ -139,7 +137,7 @@ class Log extends Manager implements LoggerInterface
      */
     public function error($message, array $context = array())
     {
-
+      
         $this->store()->write($message,__FUNCTION__,$context);
 
 
@@ -215,7 +213,7 @@ class Log extends Manager implements LoggerInterface
      */
     public function log($level, $message, array $context = array())
     {
-        $this->store()->write($message,__FUNCTION__,$context);
+        $this->store()->write($message,$level,$context);
     }
 
 

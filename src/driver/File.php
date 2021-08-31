@@ -74,6 +74,7 @@ class File
     public function write($msg, string $type = 'info', array $context = [])
     {
 
+       
         $rand = $this->getRand();
         //检测文件大小 大于的设为备份 filesize
         $fileName   = date("Ymd",time()).".log";

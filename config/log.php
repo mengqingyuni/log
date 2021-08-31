@@ -10,9 +10,7 @@ return [
         "type"   => "file"
     ],
     // 日志记录级别
-    'level'        => [],
-    // 日志类型记录的通道 ['error'=>'email',...]
-    'type_channel' => [],
+    'level'        => ["warning"],
 
     // 日志通道列表
 

@@ -9,8 +9,8 @@ require __DIR__ . '/vendor/autoload.php';
 define('CONFIG_PATH',__DIR__ . '/config/');
 
 (new Config())->load(CONFIG_PATH,'log');
-(new Log())->error("{user}::lrange() expects {exactly} 3 parameters, 1 given".microtime(true),["user"=>"test","exactly" => "ji"]);
-
+$log = (new Log())->error("{user}::lrange() expects {exactly} 3 parameters, 1 given".microtime(true),["user"=>"test","exactly" => "ji"]);
+print_r($log);
 //EXISTS
 //(new Cache())->lpush("tutorial-list", "Redis");
 //(new Cache())->lpush("tutorial-list", "Mongodb");
