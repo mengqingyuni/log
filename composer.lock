@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77503ecd991118e1df5f370fbd6ea5be",
+    "content-hash": "a9fdc7f74c28a1ef149fe8d04a5898d9",
     "packages": [
         {
             "name": "gongzhiyang/config",

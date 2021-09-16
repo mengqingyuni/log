@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '527b498ec4ce9eaaa22f4b94e539c74dfe83548b',
     'name' => 'gongzhiyang/log',
   ),
   'versions' => 
@@ -22,12 +22,12 @@
     ),
     'gongzhiyang/log' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '527b498ec4ce9eaaa22f4b94e539c74dfe83548b',
     ),
     'psr/container' => 
     array (
